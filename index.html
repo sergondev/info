@@ -4,131 +4,157 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CV - John Doe</title>
-    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="./styles/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-</head>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" 
+rel="stylesheet">
+  </head>
 <body>
-    <!-- Our APP-->
-    <div class="app-wrapper">
-    <!-- Right side-->
-<div class="right-side">
-    <!-- About me-->
-        <div class="about-me-section">
-            <h4>Front-End Developer</h4>
-            <h1>John Doe</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.</p> 
+  <!--Our App-->
+  <div class="app-wrapper">
+  <!--right side container-->
+  <div class="right-side-container">
+    <!--about me section-->
+   <div>
+   <h4 class="about-me-profession">Front-End Developer</h4> 
+    <h1 class="about-me-name">John Doe</h1>
+   <p class="about-me-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+    Quis ipsum suspendisse ultrices gravida.
+     Risus commodo viverra maecenas accumsan lacus vel facilisis. </p> 
+   </div>
+
+   <!--Projects section-->
+   <div class="projects-section">
+        <h3 class="projects-header">Projects</h3>
+        <ol class="projects-list">
+          <li>
+          <a href="https://barbershop.goit.global/" class="project-name">https://barbershop.goit.global/></a>
+          <span class="project-info">..............</span>
+          <span class="project-info"> [ HTML5, CSS3 ]</span>
+        </li>
+        <li>
+          <a href="https://cryptohub.goit.global/" class="project-name">https://cryptohub.goit.global/</a>
+          <span class="project-info">..............</span>
+          <span class="project-info"> [ JavaScript ]</span>
+        </li>
+        <li>
+                <a href="https://kidslike.goit.global/" class="project-name">https://kidslike.goit.global/></a>
+                  <span class="project-info">..............</span>
+                  <span class="project-info">[ React.js, Node.js ]</span>
+              </li>
+              </ol>
+             </div>
+           <!--Work experience section-->
+          <div class="work-experience-section">
+              <h3 class="work-experience-header">Work Experience</h3>
+
+          <!--1st company-->    
+        <div class="company-container">
+          <h4 class="company-name">Front-End Developer    
+           <span class="company-info">Freelance</span>
+          </h4>
+          <p class="company-time">March 2022 - up to now   |   Country</p>
+          <ul class="company-elements-list">
+             <li>Dezvoltare de site-uri și aplicații mobile</li>
+             <li>Remedieri de erori și îmbunătățiri ale funcționalității existente</li>
+             <li>Creșterea productivității site-urilor SPA și statice</li>
+             <li>Refactorizarea șabloanelor și programelor existente</li>
+          </ul>
+        </div> 
+
+        <!--2st company-->
+        <div class="company-container" >
+          <h4 class="company-name">Front-End Developer    
+            <span class="company-info">Freelance</span>
+          </h4>
+          <p class="company-time">October 2019 - up to now   |   Country</p>
+          <ul class="company-elements-list">
+            <li>Dezvoltare de site-uri și aplicații mobile</li>
+            <li>Remedieri de erori și îmbunătățiri ale funcționalității existente</li>
+            <li>Creșterea productivității site-urilor SPA și statice</li>
+            <li>Refactorizarea șabloanelor și programelor existente</li>
+          </ul>
         </div>
-    <!-- Projects -->
-        <div>
-            <h3>Projects</h3> 
-            <ol>
-                <li>
-                    <a href="https://barbershop.goit.global/">https://barbershop.goit.global/</a>
-                    <span>............................</span>
-                    <span>[ HTML5, CSS3 ]</span>
-                </li>
-                <li>
-                    <a href="https://cryptohub.goit.global/">https://cryptohub.goit.global/</a>
-                    <span>............................</span>
-                    <span>[ JavaScript ]</span>    
-                </li>
-                <li>
-                    <a href="https://kidslike.goit.global/">https://kidslike.goit.global/</a>
-                    <span>............................</span>
-                    <span>[ React.js, Node.js ]</span>
-                </li>
-            </ol>
+
+        <!--3st company-->
+        <div class="company-container">
+          <h4 class="company-name">Manager Glory    
+            <span class="company-info">LCC</span>
+          </h4>
+          <p class="company-time">June 2014 - February 2015   |   Country</p>
+          <ul class="company-elements-list">
+            <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit</li>
+            <li>Quis ipsum suspendisse ultrices gravida</li>
+            <li>Risus commodo viverra maecenas.</li>
+          </ul>
         </div>
-    <!-- Work experience-->
-    <div>
-        <h3>Work experience</h3>
-        
-        <div> <!-- 1st comp.-->
-            <h4>Front-End Developer    Freelance</h4>
-            <p>March 2022 - up to now   |   Country</p>
-            <ul>
-                <li>Dezvoltare de site-uri și aplicații mobile</li>
-                <li>Remedieri de erori și îmbunătățiri ale funcționalității existente</li>
-                <li>Creșterea productivității site-urilor SPA și statice</li>
-                <li>Refactorizarea șabloanelor și programelor existente</li>
-            </ul>  
+
+        <!--Education section-->
+        <div class="Education-section">
+          <h3 class="Education-header">Education</h3>
+
+          <!--National University-->
+          <div>
+          <h4 class="studies">National University</h4>
+          <p class="specialities">Management</p>
+          <p class="studies-time">September 2009 - June 2014   |  Country</p>
+          </div>
+          <!--GOIT course-->
+          <div>
+          <h4 class="studies">GoIT</h4>
+          <p class="specialities">Fullstack Online</p>
+          <p class="studies-time">January 2019 - October 2019   |  Country  </p>
+
         </div>
-        
-        <div> <!-- 2nd comp.-->
-            <h4>Manager    Glory LLC</h4>
-            <p>June 2014 - February 2015   |   Country</p>
-            <ul>
-                <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit</li>
-                <li>Quis ipsum suspendisse ultrices gravida</li>
-                <li>Risus commodo viverra maecenas</li>
-            </ul>
         </div>
-        
-        <div> <!-- 3rd comp.-->
-            <h4>Front-End Developer    Freelance</h4>
-            <p>October 2019 - up to now   |   Country</p>
-            <ul>
-                <li>Dezvoltare de site-uri și aplicații mobile</li>
-                <li>Remedieri de erori și îmbunătățiri ale funcționalității existente</li>
-                <li>Creșterea productivității site-urilor SPA și statice</li>
-                <li>Refactorizarea șabloanelor și programelor existente</li>
-            </ul>
-        </div>
+     </div>
     </div>
-    <!--Education -->
-    <div>
-        <h3>Education</h3>
+     <!--Sidebar section-->
+     <aside class="sidebar-section">
+      <img src="images/photo.png" alt="Profile picture" width="370" class="sidebar-image">
 
-        <h4>National University</h4>
-        <h5>Management</h5>
-        <p>September 2009 - June 2014   |  Country</p>
+      <!--Contacts information-->
+      <div class="contacts-container">
+        <h3 class="contacts-header"> Contacts</h3>
+        <div class="contacts-element">
+               <span class="contacts-item">C:</span>
+               <a href="tel:+111111111111" class="contacts-phone">+1 111 1111 11 11</a>
+          
+        </div>
+        <div>
+          <span class="contacts-item">E:</span>
+               <a href="mailto:johndoe@gmail.com" class="contacts-email">johndoe@gmail.com</a>
+        </div>
+       </div>
 
-        <h4>GoIT</h4>
-        <h5>Fullstack Online</h5>
-        <p>January 2019 - October 2019   |  Country  </p>
+       <!--Tech skills section-->
+       <div class="tech-skills-section">
+        <h3 class="tech-skills-header">Tech Skills</h3>
+<ul class="tech-skills-list">
+    <li>HTML5</li>
+    <li>CSS3</li>
+    <li>GIT</li>
+    <li>WebPack</li>
+    <li>JavaScript</li>
+    <li>React.js</li>
+    <li>Node.js</li>
+</ul>
+       </div>
 
+       <!--Soft skills section-->
+       <div class="Soft-Skills-section">
+        <h3 class="Soft-Skills-header">Soft Skills</h3>
+        <ul class="Soft-Skills-list">
+          <li>Scrum</li>
+          <li>Agile</li>
+          <li>GTD</li>
+          <li>Teamwork</li>
+        </ul>
+       </div>
+     </aside>
+    
     </div>
-</div>
-
-<!-- Sidebar section-->
-    <aside class="sidebar-section" >
-        <img src="images/photo.png" alt="Profile picture" width="370">
-        <!-- Contacts -->
-        <div>
-            <h3>Contacts</h3>
-        <a href="tel:+1 111 1111 11 11">
-            <span>C:</span></a>
-            +1 111 1111 11 11
-        <a href="mailto:johndoe@gmail.com">
-            <span>E:</span></a>
-            johndoe@gmail.com
-        </div>
-        <!-- Tech Skills -->
-        <div>
-            <h3>Tech Skills</h3>
-            <ul>
-                <li>HTML5</li>
-                <li>CSS3</li>
-                <li>GIT</li>
-                <li>WebPack</li>
-                <li>JavaScript</li>   
-                <li>React.js</li> 
-                <li>Node.js</li>  
-            </ul>
-        </div>
-        <!-- Soft Skills -->
-        <div>
-            <h3>Soft Skills</h3>
-            <ul>
-                <li>Scrum</li>
-                <li>Agile</li>
-                <li>GTD</li>
-                <li>Teamwork</li>
-            </ul>
-        </div>
-    </aside>
-    </div>
-</body>
+   </body>
 </html>

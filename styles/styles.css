@@ -1,0 +1,238 @@
+/* Our App*/
+body {
+  font-family: "Montserrat", sans-serif;
+ background-color:  #fff;
+}
+
+.app-wrapper {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 1200px;
+    margin: 40px auto;
+    background-color: #fff ;
+}
+    /* Sidebar Styles */
+    .sidebar-section {
+        background-color: #DFEEFF;
+    }  
+
+.sidebar-image {
+    margin-top: 40px;
+}
+
+.contacts-container {
+    padding-left: 40px;
+}
+.contacts-container {
+    color: #161D2A;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.contacts-item {
+    color: #161D2A;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px; 
+}
+.contacts-phone {
+    color: #4489FF;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;   
+    text-decoration: none;
+    margin-left: 10px;
+}
+.contacts-email {
+    color: #4489FF;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;   
+    margin-left: 10px;  
+}
+.contacts-element {
+    margin-top: 12px;
+}
+.tech-skills-section {
+    padding-left: 40px;
+    margin-top: 40px;
+}
+.tech-skills-header {
+    color: #161D2A;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;   
+}
+.tech-skills-list {
+    color: #161D2A;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;   
+    margin-top: -10px;
+    margin-left: -10px;
+}
+.Soft-Skills-section {
+    padding-left: 40px;
+    margin-top: 85px;  
+}
+.Soft-Skills-header {
+    color: #161D2A;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;   
+}
+.Soft-Skills-list {
+    color: #161D2A;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;   
+    margin-top: -10px;
+    margin-left: -10px;
+}
+
+/* Main content Styles */
+.right-side-container {
+    padding-left: 88px;
+    padding-top: 80px;
+    padding-right: 40px;
+    padding-bottom: 180px;
+}
+
+.about-me-profession {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal; 
+}
+
+.about-me-name {
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: -15px;
+}
+ 
+.about-me-description {
+  color: #595959;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  margin-top: -15px;
+}
+
+.projects-section {
+    margin-top: 40px;
+}
+
+.projects-header {
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.projects-list  {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  margin-left: -20px;
+  margin-top: -10px;
+}
+
+.project-name {
+  color: #595959;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; 
+  text-decoration-line: underline;
+}
+
+.projects-info {
+    font-weight: 400;
+}
+.work-experience-section {
+    margin-top: 40px;
+}
+.work-experience-header {
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal; 
+}
+
+.company-container {
+    margin-top: -10px;
+}
+.company-name {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal; 
+}
+
+.company-info {
+    color: #6096FF;
+    margin-left: 10px;
+}
+
+.company-time {
+  color: #A8A8A8;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+} 
+
+.company-elements-list {
+    color: #595959;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    margin-left: -15px;
+    margin-top: -5px;
+}
+
+
+.Education-section {
+    margin-top: 40px;
+}
+
+.Education-header {
+
+font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal; 
+}
+
+.studies {
+    color: #6096FF; 
+}
+
+.studies-time {
+    color: #A8A8A8;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.specialities {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;  
+}
